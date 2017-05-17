@@ -1,0 +1,121 @@
+body {
+	background-color: DarkGrey;
+	position: relative;
+	width: 99.3%;
+	margin:none;
+}
+#mainHeader {
+	background-color: rgb(40, 7, 139);
+	position: relative;
+	width: 98%;
+	border-radius: 5px;
+	border-style: outset;
+	border-color:DarkGoldenRod;
+	border-width: 7px;
+	height: 29%;
+	
+}
+.title{
+	float: left;
+	font-size: 1em;
+	text-align: left;
+	font-family: "Tahoma", times, serif;
+	margin-left: 3%;
+	color: DarkGoldenRod;
+	overflow: auto;
+}
+
+#subtitle {
+	margin-left: 2%;
+}
+
+#icon {
+	background-color: #676;
+	height: auto;
+	margin: 2% 0;
+	margin-left: 3%;
+	float:left;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visted{
+	
+}
+
+.buttons:hover, .buttons:active {
+	background-color: DarkKhaki;
+}
+
+.buttons {
+	background-color: rgb(40, 7, 139);
+	border: 3px;
+	border-color: Gray;
+	width: 14%;
+	height: 5%;
+	float: right;
+	margin: 4.5%;
+	padding: 9%;
+	list-style: none;
+	font-family: "Helvetica", times, serif;
+	text-align:center;
+	color: DarkGoldenRod; 
+	border-radius: 10px;
+	border-style: outset;
+	border-color:DarkGoldenRod;
+	border-width: 2px;
+	
+}
+#linksContainer {
+	position: fixed;
+	left: 0%;
+	top: 32.2%;
+	height: 100%;
+	margin:auto;
+	background-color: DarkGoldenRod;
+	float: left;
+	width: 13.3%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border-style: outset;
+	border-color:DarkGoldenRod;
+	border-width: 4px;
+}
+
+.container {
+	background-color: rgb(163, 243, 252);
+	height: 300%;
+	width: 80.3%;
+	float: left;
+	position: absolute;
+	left: 1%;
+	top: 32.5%;
+	padding: 2%;
+	margin-left: 12.6%;
+	border-radius: 5px;
+	border-style: outset;
+	border-color: DarkGoldenRod;
+	border-width: 7px;
+}
+
+#contentHeader {
+	position: relative;
+	top: -5.3%;
+	left: -2.5%;
+	width: 105%;
+	background-color: rgb(40, 7, 139);
+	color: DarkGoldenRod;
+	font-family: "Helvetica", times, serif;
+	font-size: 3.5em;
+	font-variant: small-caps;
+	text-align: center;
+	overflow: auto;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	*/
+}

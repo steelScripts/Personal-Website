@@ -1,0 +1,30 @@
+#gallery img{
+	width: 1600px;
+	display: none;
+}
+h4 {	
+	font-family: "Helvetica", times, serif;
+	font-size: 1.5em;
+	color: darkGoldenRod;
+}
+#mainHeader {
+	position: relative;
+	padding-bottom: 6.67%;
+}
+#title {
+	margin-right: ;
+}
+#gallery ul img {
+	border-bottom: black;
+	border: 4px;
+	margin: 5%;
+	position: relative;
+	height: 20%;
+	width: 20%;
+}
+
+#buttons {
+	background-color: DarkGreen;
+	margin: auto;
+	
+}

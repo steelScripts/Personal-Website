@@ -1,0 +1,17 @@
+h4 {
+	font-family: "Helvetica", times, serif;
+	font-size: 1.5em;
+	color: darkGreen;
+}
+
+h5 {
+	font-family: "Helvetica", times, serif;
+	font-size: 1em;
+	color: darkGreen;
+	text-decoration: underline;
+}
+
+#name {
+	overflow: auto;
+	
+}

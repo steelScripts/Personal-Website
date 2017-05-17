@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+	<head>
+		<title>Scripts of Steele</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="home.css" type="text/css"/>
+		<link rel="stylesheet" href="form.css" type="text/css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script src="form.js"></script>
+	</head>
+	
+	<body>
+		<!--Main banner for the page-->
+		<header id="mainHeader">
+			<img id="icon" src="favicon (with hat).png" alt="Pixle me with hat">
+			<div class="title">
+				<h1>Scripts of <div id="name">Steele</div></h1>
+			</div>
+			<div id="subtitle"><h5>The original website of a North Carolina Developer</h5></div>
+			
+		</header>
+		
+		<!--Navigation bar with all the links-->
+		<nav id="linksContainer"><ul>
+			<a href="home.html"><li class="buttons">Home</li></a>
+			<a href="about.html"><li class="buttons">About</li></a>			
+			<a href="form.html"><li class="buttons">Contact</li></a>
+			<a href="slideshow.html"><li class="buttons">Slideshow</li></a>
+		</ul></nav>
+		
+		<!--Container for main page content-->		
+		<div class="container">
+			<h3 id="contentHeader">Contact</h3>				
+			<h4 class="formHeader">Contract/Project Inquery</h4>	
+			<div id="projectContact">						
+				<form action="submit.php" method="post">				
+					<div class="item"><label for="name">Full Name: </label><input type="text" name="name" required></div> <br>
+					<div class="item"><label for="email">Email: </label><input type="email" name="email" required></div><br>					
+					<div class="item"><label for="card">Credit/Debit #: </label><input type="text" name="card" pattern="^\d(4)-\d(4)-\d(4)-\d(4)$"></div><br>
+					<div class="item"><label for="message">Message:</label><textarea name="message" rows="6" cols="30"></textarea></div><br>
+					<div class="item"><label for="newSub">Newsletter Subscription: </label><input type="checkbox" name="newSub" value="subscribed"><br>
+					<div id="submission"><input type="reset">
+					<input type="button" onClick="mailto:asteel22@outlook.com?subject=Steele Scripts - Project" name="submit" value="Submit"> </div>
+					</div>
+				</form>
+			</div>
+			<br>
+			<br>
+			<h4 class="formHeader">Other Inquery</h4>
+			<div id="otherContact">						
+				<form action="submit.php" method="post">				
+					<div class="item"><label for="name">Full Name: </label><input type="text" name="name" required></div> <br>
+					<div class="item"><label for="email">Email: </label><input type="email" name="email" required></div><br>					
+					<div class="item"><label for="card">Credit/Debit #: </label><input type="text" name="card" pattern="^\d(4)-\d(4)-\d(4)-\d(4)$"></div><br>
+					<div class="item"><label for="message">Message:</label><textarea name="message" rows="6" cols="30"></textarea></div><br>
+					<div class="item"><label for="newSub">Newsletter Subscription: </label><input type="checkbox" name="newSub" value="subscribed"><br>
+					<div id="submission"><input type="reset">
+					<input type="button" onClick="mailto:asteel22@outlook.com?subject=Steele Scripts - Concern" name="submit" value="Submit"> </div>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+		<!--Footer-->
+		<footer>
+			<p>&copy; Steele Scripts <em>all rights reserved</em></p>
+		</footer>
+	</div>
+	</body>
